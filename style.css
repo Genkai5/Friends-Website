@@ -1,0 +1,816 @@
+@import url(https://fonts.bunny.net/css?family=barrio:400);
+@font-face {
+    font-family: "PixelFont";
+    src: url(assets/fonts/vcr_osd_mono/VCR_OSD_MONO_1.001.ttf);
+}
+
+.container
+{
+    margin: auto;
+    max-width: 50%; /*adjusts width of all containers*/
+    display: grid;
+    grid-gap: 10px; /*creates a gap in between boxes*/
+    grid-template-columns: repeat(100, 1px); /*changes the width of the columns (col1 col2 ...*/
+    text-align: center;
+
+    
+    
+}
+
+
+main, comments
+{
+    border-radius: 0px; /*creates curved edges*/
+    background-color: rgb(240, 238, 156);
+    border:rgb(0, 0, 0) 2px solid; /*creates border around sections*/
+    
+}
+thirst
+{
+    position: relative;
+    grid-column: 34/50;
+    grid-row: 9/10;
+    .thirst
+    {
+        margin-top: 90%;
+        width: 265px;
+    }
+}
+animals
+{
+
+    position: relative;
+    
+    grid-column: 30/50;
+    grid-row: 9/10;
+    .animals
+    {
+        margin-top: 360px;
+        width: 500px;
+    }
+}
+
+paper
+{
+    position: relative;
+    z-index: 3;
+    grid-column: 90/100;
+    grid-row: 9/10;
+    .paper
+    {
+        margin-top: 240%;
+        width: 200px;
+    }
+}
+cat
+{
+    position: relative;
+    z-index: 3;
+    grid-row: 6/10;
+    grid-column: 95/100;
+    .cat
+    {
+        margin-top: 105%;
+        width: 50px;
+
+    }
+}
+hamster
+{
+    position: relative;
+    z-index: 3;
+    grid-row: 3/10;
+    grid-column: 2/3;
+    .hamster
+    {
+        width: 60px;
+    }
+}
+sparks
+{
+
+    max-height: 400px;
+    grid-column: 64/100;
+    grid-row: 8/10;
+    background-color: rgb(237, 156, 240);
+    .heart
+    {
+        margin-left: 25px;
+        width: 150px;
+    }
+}
+header
+{
+    color: rgba(18, 10, 126, 0.624);
+    text-shadow: 4px 10px rgb(30, 238, 245);
+    -webkit-text-stroke:1px rgba(255, 251, 0, 0.706);
+    position: relative; 
+    padding-left: 15px;
+    text-align: left;
+    grid-row: 1/8; /*start/end*/
+    grid-column: 1/100;
+    font-family: 'Barrio', display;
+    font: size 17px;
+    
+
+}
+
+headerborder
+{
+    background-image: url(assets/images/city.gif);
+    
+    background-position: 1%;
+    margin-top: 0px;
+    margin-left: 0%;
+    height: 165px;
+    width: 100%;
+
+    grid-row: 1; /*start/end*/
+    grid-column: 1/100;
+
+
+    border:rgb(255, 247, 179) 2px solid; /*creates border around sections*/
+
+    background-color: rgb(233, 206, 210);
+}
+welcome
+{
+    background-image: url('https://blob.gifcities.org/gifcities/32FN26WHQ2UCSLEPET4XCNEAJ5MH4QJF.gif');
+    height: 100px;
+    grid-row: 2; /*start/end*/
+    grid-column: 72/97;
+    position: relative;
+    
+}
+running
+{
+    background-image: url('assets/images/test_cycle.gif');
+    height: 100px;
+    border-radius: 0;
+    grid-row: 2/3;
+    grid-column: 10/90;
+
+    
+}
+/*top tabs*/
+tabs ul
+{
+    
+    list-style-type: none; /*gets rid of bullet points*/
+    padding: 0; /*centers*/
+    margin: 12px;
+}
+tabs li
+{
+    display: inline; /*keep everything in the same line*/
+	border:rgb(1, 22, 206) 2px solid;
+    background-color: rgb(68, 226, 213);
+    border-radius: 25px;
+    margin-left: 5%;
+
+}
+tabs li a
+{
+
+    padding: 2%;
+    text-decoration:none; /*takes away the underline*/
+    color: #201753;
+
+}
+tabs li:hover
+{
+    background-color: #fcaaf1;   
+    border: rgb(197, 115, 115) 2px solid;
+
+}
+tabs
+{
+    font-size: 110%;
+    grid-row: 3/4;
+    grid-column: 2/90;
+
+    z-index: 3;
+    
+
+}
+nav
+{
+    
+    grid-row: 5/6;
+    grid-column: 1/11;
+    height: max-content;
+    position: relative;
+    
+}
+nav ul
+{
+    list-style-type: none; /*gets rid of bullet points*/
+    padding: 0%; /*centers*/
+}
+nav li
+{
+	border:rgb(1, 22, 206) 2px solid;
+    background-color: rgb(68, 226, 213);
+    border-radius: 25px;
+    margin-bottom: 25%;
+
+}
+nav li a
+{
+    text-decoration:none;
+    color: #201753;
+}
+nav li:hover
+{
+    background-color: #fcaaf1;   
+    border: rgb(197, 115, 115) 2px solid;
+
+}
+
+navborder
+{
+    background-image: url('https://blob.gifcities.org/gifcities/UCFRKB24CM2BYCNR7HRDWBR2UT64FVOB.gif');
+    /*https://blob.gifcities.org/gifcities/UCFRKB24CM2BYCNR7HRDWBR2UT64FVOB.gif RAINBOWE*/
+
+    width: 95px;
+    height: 99%;
+
+    border:rgb(0, 0, 0) 2px solid; /*creates border around sections*/
+    border-radius: 0px;
+
+    grid-row: 4/8;
+    grid-column: 2/3;
+
+    background-color: rgb(70, 29, 35);
+}
+
+main
+{
+
+    background-image: url("");
+    background-size:cover;
+    grid-row: 4/8;
+    grid-column: 9/100;
+    height: max-content;
+
+    position: relative;
+    z-index: 1;
+    font-size: 18px;
+    text-align: left;
+
+    padding-left: 12px;
+    .icon 
+    {
+        
+        width: 9%;
+        border: #000000 3px solid;
+        border-radius: 0px;
+        background-color: #5274be;
+
+    }
+    .icon:hover
+    {
+        width: 10%;
+        border: #000000 3px solid;
+        border-radius: 0px;
+        background-color: #21e4fd;
+
+    }
+}
+comments
+{
+    max-height: fit-content;
+    margin: 0px;
+    background-image: url("https://blob.gifcities.org/gifcities/TAFGL4R5RPW45M55H4KY2TPTC3SHQ7KK.gif");
+    grid-row: 8/10;
+    grid-column: 1/30;
+    position: relative;
+    z-index: 2;
+}
+
+quiz
+{
+    
+    grid-row: 4/8;
+    grid-column: 68/98; /*start/end*/
+    position: relative;
+    z-index: 2;
+    /*A vast majority of this styling comes from 98.css code, if you're making a full windows 98 theme, I suggest you use the stylesheet this is sourced from - https://jdan.github.io/98.css/ */
+
+    .title-bar-controls button {
+    border:none;
+    border-radius:0;
+    box-sizing:border-box;
+    color:transparent;
+    min-height:23px;
+    min-width:75px;
+    padding:0 12px;
+    text-shadow:0 0 #222;
+    }
+
+    .title-bar-controls button {
+    background:silver;
+    box-shadow:inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+    }
+
+    .title-bar-controls button:not(:disabled):active {
+    box-shadow:inset -1px -1px #fff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px grey;
+    text-shadow:1px 1px #222;
+    }
+
+    @media (not(hover)){
+    button:not(:disabled):hover {
+    box-shadow:inset -1px -1px #fff,inset 1px 1px #0a0a0a,inset -2px -2px #dfdfdf,inset 2px 2px grey}
+    }
+
+    .title-bar-controls button:focus {
+    outline:1px dotted #000;
+    outline-offset:-4px;
+    }
+
+    .title-bar-controls button::-moz-focus-inner { border:0 }
+        
+    @font-face {
+    font-family: "Pixelated MS Sans Serif";
+    src: url("https://files.catbox.moe/1za99g.woff") format("woff");
+    src: url("https://files.catbox.moe/8fwbkl.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    }   
+
+    .window, .title-bar {
+    font-family: "Pixelated MS Sans Serif", Arial;
+    -webkit-font-smoothing: none;
+    font-size: 11px;
+    }
+
+    .window {
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px #808080, inset 2px 2px #ffffff;
+    background: #ffadd3;
+    color:#000;
+    padding: 3px;
+    width:100%;
+    height: 84%;
+    }
+
+    .title-bar {
+    background:linear-gradient(90deg, #151e6a, #3945b2, #0bf7ff);
+    padding: 3px 2px 3px 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .title-bar-text {
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0;
+    margin-right: 24px;
+    }
+
+    .title-bar-controls {
+    display: flex;
+    }
+
+    .title-bar-controls button {
+    padding: 0;
+    display: block;
+    min-width: 16px;
+    min-height: 14px;
+    }
+
+    .title-bar-controls button:active {
+    padding: 0;
+    }
+
+    .title-bar-controls button:focus {
+    outline: none;
+    }
+
+    .title-bar-controls button[aria-label=Minimize]{
+    background-image:url("https://raw.githubusercontent.com/jdan/98.css/main/icon/minimize.svg");
+    background-position:bottom 3px left 4px;
+    background-repeat:no-repeat
+    }
+
+    .title-bar-controls button[aria-label=Maximize]{
+    background-image:url("https://raw.githubusercontent.com/jdan/98.css/4a2282dd9170cabf730fb5803d1153d86b2e94e3/icon/maximize.svg");
+    background-position:top 2px left 3px;
+    background-repeat:no-repeat;
+    }
+
+    .title-bar-controls button[aria-label=Close]{
+    background-image:url("https://raw.githubusercontent.com/jdan/98.css/main/icon/close.svg");
+    background-position:top 3px left 4px;
+    background-repeat:no-repeat;
+    margin-left:2px;
+    }
+
+    .window-body {
+    margin: 8px;
+
+
+    }
+
+    /* literally only part ive custom coded so it scrolls . i also like the effect the fieldset adds */
+    .fieldset {
+    border:1px gray solid;
+    box-shadow: white 1px 1px 0px inset, white 1px 1px 0px, white 0px 1px 0px, white 1px 0px 0px;
+    margin:0;
+    padding:10px;
+    overflow-y:auto; 
+    height: 400px;
+    }
+}
+
+
+
+/*MUSIC PLAYER*/
+:root {
+        --titlebar-gradient: linear-gradient(90deg, #151e6a, #3945b2, #0bf7ff);
+        --dialog-blue: #6a1535;
+        --dialog-accent: white; /* color of text on diaglog blue */
+        --titlebar-color: white; /* reccomended to change so its easy to read on titlebar color */
+        --player-image: url(assets/images/music_player_icon.png);
+
+    /*** 98 css styling ***/
+    /* while some of these may specify a single element, theyre used across mulitple */
+        --surface: #c0c0c0;
+        --button-highlight: #ffffff;
+        --button-face: #dfdfdf;
+        --button-shadow: #808080;
+        --light-button-shadow: #a9a9a9;
+        --window-frame: #0a0a0a;
+        --border-field: inset -1px -1px var(--button-highlight),
+            inset 1px 1px var(--button-shadow), inset -2px -2px var(--button-face),
+            inset 2px 2px var(--window-frame);
+    }
+
+    @font-face {
+  font-family: "Pixelated MS Sans Serif";
+  src: url("https://files.catbox.moe/qgjjre.woff") format("woff");
+  src: url("https://files.catbox.moe/8fwbkl.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Pixelated MS Sans Serif";
+    src: url("https://files.catbox.moe/z7csle.woff") format("woff");
+    src: url("https://files.catbox.moe/moqhx6.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+    }
+
+    #musicplayer {
+        height: max-content;
+        grid-column: 30/40;
+        grid-row: 8/10;
+
+        z-index: 2;
+        font-family: "Pixelated MS Sans Serif", Arial;
+        -webkit-font-smoothing: none;
+        font-size: 11px;
+        color:var(--window-frame);
+        width: fit-content;
+        border:var(--window-frame) solid 1px;
+        margin:0 auto;
+            box-shadow: inset -1px -1px var(--window-frame), inset 1px 1px var(--button-face), inset -2px -2px var(--button-shadow), inset 2px 2px var(--button-highlight);
+        background: var(--surface);
+        padding: 3px;
+        width: 360px;
+    }
+
+    .title-color {  
+  padding: 3px 2px 3px 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    background: var(--titlebar-gradient);
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+.actual-title {
+    color:var(--titlebar-color);
+  display: flex;
+  gap: 5px;
+}
+
+.seeking {
+    font-weight: normal;
+    font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    gap: 5px;
+    margin: 12px 0;
+}
+
+.player-flex {
+    display: flex;
+    gap: 3px;
+}
+
+.player-main {
+    width: calc(100% - 100px);
+    margin-top: 1px;
+}
+
+.player-icon-holder {
+  border: 2px solid var(--surface);
+  width:95px;
+  height:95px;
+  padding: 1px;
+  background-image:linear-gradient(-45deg, var(--button-face) 50%, var(--window-frame) 50%);
+  background-size:cover;
+  background-repeat:no-repeat;
+  border-width:1px;
+  border-style:solid;
+  border-color: var(--button-shadow) var(--button-highlight) var(--button-highlight) var(--button-shadow);
+  
+  overflow: hidden;
+  position:relative;
+  z-index: 2;
+}
+
+.player-icon {
+    background-image:var(--player-image);
+    background-size: contain;
+    background-repeat: no-repeat;
+  width:95px;
+  height:95px;
+  display: display;
+}
+
+/* BELOW IS LARGELY RIPPED FROM 98 CSS */
+.track-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  border-radius:0;
+  box-sizing: border-box;
+  outline:0;
+  
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+
+  position: relative;
+  padding: 3px 4px;
+  padding-right: 32px;
+  background-image: url("https://loveberry.nekoweb.org/assets/musicplayer/button-down.svg");
+  background-position: top 2px right 2px;
+  background-repeat: no-repeat;
+  width:100%;
+
+  box-shadow: var(--border-field);
+  background-color: var(--button-highlight);
+  height: 21px;
+
+  font-family: "Pixelated MS Sans Serif", Arial;
+  -webkit-font-smoothing: none;
+  font-size: 11px;
+  font-weight: lighter;
+}
+
+.track-select:focus {
+  color: var(--dialog-accent);
+  background-color: var(--dialog-blue);
+
+}
+.track-select:focus option {
+  color: var(--window-frame);
+  background-color: var(--button-highlight);  
+  outline: 1px;
+  border: none;
+}
+
+.track-select:active {
+  background-image: url("https://loveberry.nekoweb.org/assets/musicplayer/button-down-active.svg");
+}
+
+/* input */
+#musicplayer input[type="range"] {  
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  background: transparent;
+}
+
+#musicplayer input[type="range"]:focus {
+  outline: none;
+}
+
+#musicplayer input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 21px;
+  width: 11px;
+  background: url("https://loveberry.nekoweb.org/assets/musicplayer/indicator-horizontal.svg");
+  transform: translateY(-8px);
+  box-shadow: none;
+  border: none;
+}
+
+#musicplayer input[type="range"].has-box-indicator::-webkit-slider-thumb {
+  background: url("https://loveberry.nekoweb.org/assets/musicplayer/indicator-rectangle-horizontal.svg");
+  transform: translateY(-10px);
+}
+
+#musicplayer input[type="range"]::-moz-range-thumb {
+  height: 21px;
+  width: 11px;
+  border: 0;
+  border-radius: 0;
+  background: url("https://loveberry.nekoweb.org/assets/musicplayer/indicator-horizontal.svg");
+  transform: translateY(2px);
+}
+
+#musicplayer input[type="range"].has-box-indicator::-moz-range-thumb {
+  background: url("https://loveberry.nekoweb.org/assets/musicplayer/indicator-rectangle-horizontal.svg");
+  transform: translateY(0px);
+}
+
+#musicplayer input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 2px;
+  box-sizing: border-box;
+  background: var(--window-frame);
+  border-right: 1px solid var(--button-shadow);
+  border-bottom: 1px solid var(--button-shadow);
+  box-shadow: 1px 0 0 var(--button-highlight), 1px 1px 0 var(--button-highlight), 0 1px 0 var(--button-highlight), -1px 0 0 var(--light-button-shadow),
+    -1px -1px 0 var(--light-button-shadow), 0 -1px 0 var(--light-button-shadow), -1px 1px 0 var(--button-highlight), 1px -1px var(--light-button-shadow);
+}
+
+#musicplayer input[type="range"]::-moz-range-track {
+    width: 100%;
+    height: 2px;
+    box-sizing: border-box;
+    background: var(--window-frame);
+    border-right: 1px solid var(--button-shadow);
+    border-bottom: 1px solid var(--button-shadow);
+    box-shadow: 1px 0 0 var(--button-highlight), 1px 1px 0 var(--button-highlight), 0 1px 0 var(--button-highlight), -1px 0 0 var(--light-button-shadow),
+    -1px -1px 0 var(--light-button-shadow), 0 -1px 0 var(--light-button-shadow), -1px 1px 0 var(--button-highlight), 1px -1px var(--light-button-shadow);
+}
+
+.window-button {
+    background: var(--surface);
+    border: none;
+    border-radius: 0;
+    box-shadow: inset -1px -1px var(--window-frame),inset 1px 1px var(--button-highlight),inset -2px -2px var(--button-shadow),inset 2px 2px var(--button-face);
+    box-sizing: border-box;
+    color: inherit;
+    text-shadow: 0 0 var(--window-frame);
+}
+
+.window-button:active {
+  box-shadow: inset -1px -1px var(--button-highlight), inset 1px 1px var(--window-frame), inset -2px -2px var(--button-face), inset 2px 2px var(--button-shadow);
+  text-shadow: 1px 1px var(--window-frame);
+}
+
+.window-button:focus  {
+  outline: 1px dotted #000;
+  outline-offset: -4px;
+}
+.player-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 5px 5px 0 5px;
+}
+.player-buttons .window-button  {
+    width: 33%;
+    font-size: 10px;
+    padding: 5px 10px;
+}
+.player-buttons .window-button svg {
+   width: 15px;
+   height: 15px;
+}
+
+.title-bar-controls {
+    display: flex;
+}
+.close {
+    margin-left: 2px;
+    background-image: url("https://loveberry.nekoweb.org/assets/musicplayer/close.svg");
+    background-repeat: no-repeat;
+    background-position: top 3px left 4px;
+
+    padding: 0;
+    display: block;
+    min-width: 16px;
+    min-height: 14px;
+}
+
+.minimize {
+  background-image: url("https://loveberry.nekoweb.org/assets/musicplayer/minimize.svg");
+  background-repeat: no-repeat;
+  background-position: bottom 3px left 4px;
+    padding: 0;
+    display: block;
+    min-width: 16px;
+    min-height: 14px;
+}
+
+.maximize {
+  background-image: url("https://loveberry.nekoweb.org/assets/musicplayer/maximize.svg");
+  background-repeat: no-repeat;
+  background-position: top 2px left 3px;
+    padding: 0;
+    display: block;
+    min-width: 16px;
+    min-height: 14px;
+}
+
+
+
+
+
+/*the cursor trail*/
+.star {
+	position: absolute;
+	pointer-events: none;
+    z-index: 3;
+}
+
+.star:before, .star:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '\2726';
+	font-size: 9px;
+}
+
+.star:before {
+	color: transparent;
+	text-shadow: 0 0 3px rgb(233, 198, 248);
+}
+
+.star:after {
+	background: rgb(234, 236, 255);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/*Shaking text*/
+.tumblrwob {
+    color: #08b8be;
+display:flex;
+flex-wrap:wrap;
+justify-content:left;
+white-space:pre;
+font-size: 3em;
+font-family: Arial;
+
+}
+
+.wobble:nth-child(4n+1) {
+-webkit-animation:tumblrwobble 4s ease-in-out -.5s infinite;
+animation:tumblrwobble 4s ease-in-out -.5s infinite
+}
+
+@keyframes tumblrwobble{
+0%  { transform:translateY(5%) skew(3deg) }
+25% { transform:translateY(-5%) }
+50% { transform:translateY(5%) skew(-3deg) }
+75% { transform:translateY(-5%) }
+to { transform:translateY(5%) skew(3deg) }
+}
+
+@-webkit-keyframes tumblrwobble{
+0%  { transform:translateY(5%) skew(3deg) }
+25% { transform:translateY(-5%) }
+50% { transform:translateY(5%) skew(-3deg) }
+75% { transform:translateY(-5%) }
+to { transform:translateY(5%) skew(3deg) }
+}
+
+.wobble:nth-child(4n+2){
+-webkit-animation:tumblrwobble 4s ease-in-out -1s infinite;
+animation:tumblrwobble 4s ease-in-out -1s infinite;
+}
+
+.wobble:nth-child(4n+3){
+-webkit-animation:tumblrwobble 4s ease-in-out -1.5s infinite;
+animation:tumblrwobble 4s ease-in-out -1.5s infinite;
+}
+
+.wobble:nth-child(4n){
+-webkit-animation:tumblrwobble 4s ease-in-out 0s infinite;
+animation:tumblrwobble 4s ease-in-out 0s infinite;
+}
+
+
+body 
+{
+    background-image: url('https://blob.gifcities.org/gifcities/V7CV76JUXET2KXQ4ECJA32VIVOOFU5IR.gif'); /*creates a background*/
+    background-attachment: fixed;
+    background-repeat: repeat;
+    overflow: auto; /*makes it so its scrollable*/
+    font-family: 'PixelFont';
+    color: #201753;
+}
+
+

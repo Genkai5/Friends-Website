@@ -1,0 +1,80 @@
+nav li:nth-child(1)
+{
+    background-color: #fcaaf1;   
+    border: rgb(197, 115, 115) 2px solid;
+
+}
+name
+{
+
+    color: rgb(93, 170, 86);
+    letter-spacing: 40px;
+    margin-top: 25%;
+
+
+}
+headshot
+{
+
+    border-width:10px; 
+    border-style:solid;
+    border-image: url("https://i.imgur.com/Ariwp8I.gif") 35 fill round;        
+    
+    background-color: rgb(93, 170, 86);
+}
+
+statweb
+{
+    background-color: rgb(23, 80, 36);
+
+}
+
+desc
+{
+       background-color: rgb(157, 206, 101);
+}
+
+spiderman
+{
+    position: relative;
+    z-index: 2;
+    grid-column: 89/100;
+    grid-row: 2/6;
+    background-image: url('https://blob.gifcities.org/gifcities/2APDMOJQDLKVU4K66KTEXNMPIQ7PYZXW.gif');
+    background-size: cover;
+    background-position: center;
+     
+}
+racetrack
+{
+    position: relative;
+    z-index: 2;
+    grid-column: 1/100;
+    grid-row: 30/ 32;
+    background-image: url('https://blob.gifcities.org/gifcities/EHOECK5Q2ZMSFP7R6M2FKT5EJ3OK2GQW.gif');
+    background-size: cover;
+    background-position: center;
+     
+}
+car
+{
+    position: relative;
+    z-index: 1;
+    grid-column: 1/31;
+    grid-row: 24/ 33;
+    background-image: url('https://blob.gifcities.org/gifcities/Z5GANUJ2LXKMBBNRBU2HJL5ZSTIHQWPG.gif');
+    background-size: cover;
+    background-position: center;
+    
+}
+dog
+{
+    position: relative;
+    z-index: 3;
+    grid-column: 70/92;
+    grid-row: 20/ 31;
+    background-image: url('https://blob.gifcities.org/gifcities/3LWFSTQIJF33VWODG4MQWWPULEDN5I66.gif');
+    background-size: cover;
+    background-position: center;
+    
+}

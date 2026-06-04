@@ -1,0 +1,44 @@
+name
+{
+    color: rgb(255, 174, 0);
+    letter-spacing: 20px;
+    margin-top: 20%;
+}
+
+
+nav li:nth-child(3)
+{
+    background-color: #fcaaf1;   
+    border: rgb(197, 115, 115) 2px solid;
+
+}
+
+headshot
+{
+    border-width: 100px; 
+    background-color: rgb(255, 174, 0);
+}
+
+desc
+{
+       background-color: rgb(255, 226, 99);
+}
+
+statweb
+{
+        background-color: rgb(187, 128, 0);
+
+}
+
+person
+{
+    position: relative;
+    z-index: 3;
+    grid-row: 4/30;
+    grid-column: 4/25;
+    img
+    {
+        width: 720px;
+    }
+    
+}
