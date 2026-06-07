@@ -16,7 +16,7 @@ nav li:nth-child(3)
 headshot
 {
     border-width: 100px; 
-    background-color: rgb(255, 174, 0);
+    background-color: rgb(255, 199, 79);
 }
 
 desc
@@ -26,7 +26,7 @@ desc
 
 statweb
 {
-        background-color: rgb(187, 128, 0);
+        background-color: rgb(238, 170, 22);
 
 }
 
@@ -35,10 +35,10 @@ person
     position: relative;
     z-index: 3;
     grid-row: 4/30;
-    grid-column: 4/25;
+    grid-column: 18/35;
     img
     {
-        width: 720px;
+        width: 320px;
     }
     
 }
