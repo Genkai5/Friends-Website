@@ -1,0 +1,76 @@
+<!DOCTYPE html> <!-- tell the brower this is an htlm doc-->
+
+<html> <!--opening tag-->
+    <head>
+        
+        <title>Fellas</title>
+        <link href="/style.css" rel="stylesheet" type="text/css" media="all"> <!--links files together-->
+        <link href="/fellas.css" rel="stylesheet" type="text/css" media="all"> <!--links files together-->
+        <link rel="icon" href="assets/images/favicon.gif" type="image/x-icon">
+        <link href="/sai.css" rel="stylesheet" type="text/css" media="all"> <!--links files together-->
+
+    </head>
+ <!--creates cursor--> 
+<style type="text/css">* {cursor: url(https://cur.cursors-4u.net/cursors/cur-10/cur918.cur), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2011/12/20/wing-pointer.html" target="_blank" title="Pink Wing Pointer"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Pink Wing Pointer" style="position:absolute; top: 0px; right: 0px;" /></a>    
+    <body>
+        <!--creates trailing stars on cursor-->
+        <script>
+            window.addEventListener('mousemove', function(e) 
+            {
+            var arr = [1, 0.9, 0.8, 0.5, 0.2];
+
+            arr.forEach(function(i) 
+            {
+                var x = (1 - i) * 75;
+                var star = document.createElement('div');
+
+                star.className = 'star';
+                star.style.top = e.pageY + Math.round(Math.random() * x - x / 2) + 'px';
+                star.style.left = e.pageX + Math.round(Math.random() * x - x / 2) + 'px';
+
+                document.body.appendChild(star);
+
+                window.setTimeout(function() {
+                document.body.removeChild(star);
+                }, Math.round(Math.random() * i * 600));
+            }
+        );
+            }, false);
+        </script>
+        <div class = "container">
+            <header>
+                <h1> <span style="padding-left: 130px;">The </span><br> <span style="font-size: 160px;">Gang</span></h1>
+            </header>
+            <headerborder></headerborder>
+            <running></running>
+            <tabs>
+                <ul>
+                    <li><a href = "index.html">Main</a></li>
+                    <li><a href="fellas.html">Fellas</a></li>
+                    <li><a href="gallery.htlm">Gallery</a></li>
+                    <li><a href = "ref.html"> References</a></li>
+                </ul>
+            </tabs>
+            <navborder></navborder>
+            <nav>
+                <ul>
+                    <li> <a href = "art.html">Art</a></li>
+                    <li> <a href = "manga.html">Manga/Comics</a></li>
+                    <li>Anime</li>
+                    <li>Music</li>
+                    <li>TBD</li>
+                    <li>TBD</li>
+                    <li>TBD</li>
+                </ul>
+            </nav>
+            <main2>
+                <p></p>
+                <iframe src="https://jspaint.app/" height="590px" width="900px"></iframe> 
+                <p></p>
+            </main2>
+
+        </div>
+        
+    </body>
+
+</html>
