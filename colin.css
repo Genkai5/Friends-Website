@@ -1,6 +1,6 @@
 name
 {
-    color: rgb(255, 174, 0);
+    color: rgb(32, 29, 83);
     letter-spacing: 20px;
     margin-top: 40%;
 }
@@ -16,17 +16,17 @@ nav li:nth-child(5)
 headshot
 {
     border-width: 100px; 
-    background-color: rgb(255, 199, 79);
+    background-color: rgb(77, 71, 163);
 }
 
 desc
 {
-       background-color: rgb(255, 226, 99);
+       background-color: rgb(99, 107, 175);
 }
 
 statweb
 {
-        background-color: rgb(238, 170, 22);
+        background-color: rgb(19, 14, 85);
 
 }
 
@@ -35,7 +35,7 @@ person
     position: relative;
     z-index: 3;
     grid-row: 4/30;
-    grid-column: 18/35;
+    grid-column: 14/35;
     img
     {
         width: 320px;
