@@ -35,10 +35,10 @@ person
     position: relative;
     z-index: 3;
     grid-row: 4/30;
-    grid-column: 18/35;
+    grid-column: 8/20;
     img
     {
-        width: 320px;
+        width: 620px;
     }
     
 }

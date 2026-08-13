@@ -7,6 +7,12 @@ main3
     background-color: rgb(240, 238, 156);
     position: relative;
     z-index: 2;
+        h1
+    {
+        
+        border:rgb(36, 33, 209) 2px solid; /*creates border around sections*/
+        background-color: rgb(87, 238, 230);
+    }
 img
 {
     width: 230px;

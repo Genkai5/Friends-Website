@@ -42,3 +42,52 @@ person
     }
     
 }
+
+drum
+{
+    position: relative;
+    z-index: 2;
+    grid-column: 65/100;
+    grid-row: 1/4;
+    background-image: url('assets/images/drum.gif');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: -11px;
+}
+
+music
+
+{
+    position: relative;
+    z-index: 2;
+    grid-column: 65/100;
+    grid-row: 1/4;
+    background-image: url('assets/images/music.gif');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: -11px;
+}
+
+wres
+{
+    position: relative;
+    z-index: 2;
+    grid-column: 65/100;
+    grid-row: 1/4;
+    background-image: url('assets/images/wrestle.gif');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: -11px;
+}
+
+cat
+{
+    position: relative;
+    z-index: 2;
+    grid-column: 65/100;
+    grid-row: 1/4;
+    background-image: url('assets/images/cat.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: -11px;
+}

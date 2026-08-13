@@ -16,8 +16,6 @@ name
 headshot
 {
 
-    border-width:10px; 
-    border-style:solid;
     border-image: url("https://i.imgur.com/Ariwp8I.gif") 35 fill round;        
     
     background-color: rgb(93, 170, 86);
