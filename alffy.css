@@ -55,23 +55,22 @@ luffy
 {
     position: relative;
     z-index: 4;
-    grid-column: 47/58;
+    grid-column: 46/59;
     grid-row: 11/29;
     background-image: url('assets/images/luffy.gif');
     background-size: cover;
     background-position: center;
     margin-bottom: 4px
 }
-yusuke
+
+sana
 {
     position: relative;
     z-index: 4;
-    grid-column: 74/88;
-    grid-row: 5/8;
-    background-image: url('https://blob.gifcities.org/gifcities/GCLCHSBPZNTLPH66NM2QXY3IIIEY6H2D.gif');
+    grid-column: 1/17;
+    grid-row: 2/4;
+    background-image: url('assets/images/sana.gif');
     background-size: cover;
     background-position: center;
-    margin-bottom: 50px;
-    margin-top: -55px;
-   
+    margin-bottom: 4px
 }

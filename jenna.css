@@ -42,3 +42,39 @@ person
     }
     
 }
+bunny
+{
+    position: relative;
+    z-index: 4;
+    grid-column: 1/10;
+    grid-row: 2/4;
+    background-image: url('assets/images/bunny.gif');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: -16px;
+}
+
+kir6y
+{
+    position: relative;
+    z-index: 4;
+    grid-column: 40/60;
+    grid-row: 8/29;
+    background-image: url('assets/images/kir6y.gif');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: -44px
+}
+
+
+valley
+{
+    position: relative;
+    z-index: 4;
+    grid-column: 75/100;
+    grid-row: 1/5;
+    background-image: url('assets/images/valley.gif');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: -27px;
+}
