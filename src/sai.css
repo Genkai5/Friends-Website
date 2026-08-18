@@ -15,7 +15,6 @@ name
 }
 headshot
 {      
-    
     background-color: rgb(93, 170, 86);
 }
 
@@ -36,7 +35,7 @@ spiderman
     z-index: 2;
     grid-column: 89/100;
     grid-row: 2/6;
-    background-image: url('https://blob.gifcities.org/gifcities/2APDMOJQDLKVU4K66KTEXNMPIQ7PYZXW.gif');
+    background-image: url(assets/images/spiderman.gif);
     background-size: cover;
     background-position: center;
      
@@ -47,7 +46,7 @@ racetrack
     z-index: 2;
     grid-column: 1/100;
     grid-row: 30/ 32;
-    background-image: url('https://blob.gifcities.org/gifcities/EHOECK5Q2ZMSFP7R6M2FKT5EJ3OK2GQW.gif');
+    background-image: url(assets\images\racetrack.gif);
     background-size: cover;
     background-position: center;
      
@@ -58,7 +57,7 @@ car
     z-index: 1;
     grid-column: 1/31;
     grid-row: 24/ 33;
-    background-image: url('https://blob.gifcities.org/gifcities/Z5GANUJ2LXKMBBNRBU2HJL5ZSTIHQWPG.gif');
+    background-image: url('assets/images/racecar.gif');
     background-size: cover;
     background-position: center;
     
@@ -69,7 +68,7 @@ dog
     z-index: 3;
     grid-column: 70/92;
     grid-row: 20/ 31;
-    background-image: url('https://blob.gifcities.org/gifcities/3LWFSTQIJF33VWODG4MQWWPULEDN5I66.gif');
+    background-image: url('assets/images/rocky.gif');
     background-size: cover;
     background-position: center;
     

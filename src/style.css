@@ -805,7 +805,7 @@ animation:tumblrwobble 4s ease-in-out 0s infinite;
 
 body 
 {
-    background-image: url('https://blob.gifcities.org/gifcities/V7CV76JUXET2KXQ4ECJA32VIVOOFU5IR.gif'); /*creates a background*/
+    background-image: url(assets\images\night.gif); /*creates a background*/
     background-attachment: fixed;
     background-repeat: repeat;
     overflow: auto; /*makes it so its scrollable*/
