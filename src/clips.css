@@ -86,15 +86,5 @@ alf
     background-position: center;
 }
 
-jeb
-{
-    position: relative;
-    grid-column: 7/17;
-    grid-row: 21/29;
-    z-index: 5;
-    background-image: url(assets/images/buny_icon.gif);
-    background-size: cover;
-    background-position: center;
-}
 
 

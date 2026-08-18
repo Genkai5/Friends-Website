@@ -46,7 +46,7 @@ racetrack
     z-index: 2;
     grid-column: 1/100;
     grid-row: 30/ 32;
-    background-image: url(assets\images\racetrack.gif);
+    background-image: url(assets/images/racetrack.gif);
     background-size: cover;
     background-position: center;
      
